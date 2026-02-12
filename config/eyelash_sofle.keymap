@@ -48,8 +48,8 @@
             bindings = <
 &kp ESC     &kp N1       &kp N2        &kp N3        &kp N4       &kp N5                         &kp UP_ARROW     &kp N6           &kp N7  &kp N8         &kp N9           &kp N0                 &kp BACKSPACE
 &kp TAB     &kp Q        &kp W         &kp E         &kp R        &kp T                          &kp DOWN_ARROW   &kp Y            &kp U   &kp I          &kp O            &kp P                  &kp BSLH
-&kp LCTRL   &mt LC(A) A  &kp S         &kp D         &kp F        &kp G                          &kp LEFT_ARROW   &kp H            &kp J   &kp K          &kp L            &kp SEMICOLON          &kp APOS
-&kp LSHFT   &kp Z        &mt LC(X) X   &mt LC(C) C   &mt LC(V) V  &kp B                          &kp RIGHT_ARROW  &kp N            &kp M   &kp COMMA      &kp DOT          &kp FSLH               &kp ENTER
+&kp LCTRL   &mt LC(A) A  &kp S         &kp D         &kp F        &kp G                          &kp LEFT_ARROW   &kp H            &kp J   &kp K          &kp L            &kp IT_COLON           &kp IT_APOSTROPHE
+&kp LSHFT   &kp Z        &mt LC(X) X   &mt LC(C) C   &mt LC(V) V  &kp B                          &kp RIGHT_ARROW  &kp N            &kp M   &kp IT_COMMA   &kp IT_DOT       &kp IT_SLASH           &kp ENTER
 &kp C_MUTE  &kp LCTRL    &kp LEFT_GUI  &kp LEFT_ALT  &mo 1        &mt LC(BACKSPACE) BACKSPACE    &kp ENTER        &mt ENTER SPACE  &mo 2   &kp RIGHT_ALT  &kp RIGHT_SHIFT  &mt LC(DELETE) DELETE
             >;
 
@@ -72,11 +72,11 @@
 
         SECOND {
             bindings = <
-&trans  &trans          &trans  &trans             &trans               &trans                     &kp IT_PLUS      &trans                    &trans                &trans              &trans          &trans  &trans
-&trans  &trans          &trans  &kp IT_E_GRAVE     &trans               &trans                     &kp IT_MINUS     &trans                    &kp IT_U_GRAVE        &kp IT_I_GRAVE      &kp IT_O_GRAVE  &trans  &trans
-&trans  &kp IT_A_GRAVE  &trans  &trans             &kp IT_EXCLAMATION   &kp IT_QUESTION            &kp IT_SLASH     &kp IT_SINGLE_QUOTE       &kp IT_DOUBLE_QUOTES  &trans              &trans          &trans  &trans
-&trans  &trans          &trans  &kp IT_LEFT_BRACE  &kp IT_LEFT_BRACKET  &kp IT_LEFT_PARENTHESIS    &kp IT_ASTERISK  &kp IT_RIGHT_PARENTHESIS  &kp IT_RIGHT_BRACKET  &kp IT_RIGHT_BRACE  &trans          &trans  &trans
-&trans  &trans          &trans  &trans             &mo 3                &trans                     &kp IT_EQUAL     &trans                    &trans                &trans              &trans          &trans
+&trans  &trans          &trans  &trans          &trans                   &trans                      &kp IT_PLUS      &trans               &trans                &trans            &trans               &trans            &trans
+&trans  &trans          &trans  &kp IT_E_GRAVE  &kp IT_LEFT_BRACE        &kp IT_RIGHT_BRACE          &kp IT_MINUS     &trans               &kp IT_U_GRAVE        &kp IT_I_GRAVE    &kp IT_O_GRAVE       &trans            &kp IT_PIPE
+&trans  &kp IT_A_GRAVE  &trans  &trans          &kp IT_LEFT_PARENTHESIS  &kp IT_RIGHT_PARENTHESIS    &kp IT_SLASH     &kp IT_SINGLE_QUOTE  &kp IT_DOUBLE_QUOTES  &trans            &trans               &kp IT_SEMICOLON  &kp IT_DOUBLE_QUOTES
+&trans  &trans          &trans  &trans          &kp IT_LEFT_BRACKET      &kp IT_RIGHT_BRACKET        &kp IT_ASTERISK  &kp IT_EXCLAMATION   &kp IT_QUESTION       &kp IT_LESS_THAN  &kp IT_GREATER_THAN  &kp IT_QUESTION   &trans
+&trans  &trans          &trans  &trans          &mo 3                    &trans                      &kp IT_EQUAL     &trans               &trans                &trans            &trans               &trans
             >;
 
             display-name = "SECOND";
