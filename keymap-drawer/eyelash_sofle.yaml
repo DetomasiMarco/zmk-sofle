@@ -28,7 +28,7 @@ layers:
   - P
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD GRAVE ACCENT AND TILDE))
   - $$mdi:apple-keyboard-control$$
-  - {t: A, h: Ctl+A}
+  - A
   - S
   - D
   - F
@@ -42,9 +42,9 @@ layers:
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
   - $$mdi:apple-keyboard-shift$$
   - Z
-  - {t: X, h: Ctl+X}
-  - {t: C, h: Ctl+C}
-  - {t: V, h: Ctl+V}
+  - X
+  - C
+  - V
   - B
   - $$mdi:arrow-right-bold$$
   - N
@@ -58,10 +58,10 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - FIRST
-  - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:keyboard-return$$'}
-  - SECOND
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', h: SECOND}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+$$mdi:backspace-reverse-outline$$'}
